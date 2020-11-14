@@ -14,7 +14,7 @@ body{
 }
 @media screen and (max-width:720px){
     body{
-        width: 96%;/*もと97*/
+        width: 98%;
         min-width: 100px;
     }
 }
@@ -174,7 +174,7 @@ body{
 }
 @media screen and (max-width:720px){
     .contents h2{
-        width: 94%;
+        width: 92%;
     }
 }
 
@@ -184,7 +184,7 @@ body{
 }
 @media screen and (max-width:720px){
     .contents h3{
-        width: 90%;
+        width: 92%;
     }
 }
 
