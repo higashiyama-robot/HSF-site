@@ -1,0 +1,53 @@
+
+/*各ページオリジナルスタイル////////////////////////////////////////////*/
+
+/*.contents{
+    height: 1200px;
+}
+
+.nav{
+    height: 1100px;
+}*/
+
+.contents ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.contents a{
+    text-decoration: none;
+    color:rgb(168, 95, 0);
+}
+
+.contents a:hover {
+	color:rgb(88, 50, 0);
+}
+
+.first{
+    padding-left: 10px;
+    margin-top: 12px;
+    margin-left: 10px;
+
+    font-weight: bold;
+    font-size: 22px;
+
+    border-left: solid 4px #503000;
+    
+}
+
+.second{
+    padding-left: 40px;
+    padding-top: 8px;
+
+    font-weight: bolder; 
+    font-size: 20px;
+}
+
+.third{
+    padding-left: 60px;
+    padding-top: 4px;
+
+    font-weight: bolder; 
+    font-size: 16px;
+}

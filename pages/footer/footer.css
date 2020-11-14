@@ -1,0 +1,97 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+.footer{
+    clear: both;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(207, 207, 207);
+    color: white;
+}
+
+.footer img{
+    margin: 10px;
+    float: left;
+}
+@media screen and (max-width:720px){
+    .footer img{
+        height: 50%;
+        width: auto;
+    }
+}
+
+.footerBar{
+    font-weight: bold;
+    display:inline;
+}
+
+.footerBar ul{
+    list-style:none;
+    margin-right: 30px;
+    display:inline;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footerBar ul li{
+    margin-right: 20px;
+    margin-top: 34px;
+    float: right;
+
+    padding: 3px 9px;
+    text-decoration: none;
+    background: #4d4d4d;/*ボタン色*/
+    color: #FFF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+@media screen and (max-width:720px){
+    .footerBar ul li{
+        margin-right: 14px;
+        margin-top: 30px;
+        padding: 2px 4px;
+        border-radius: 4px;
+    }
+}
+
+.footerBar ul li a{
+    color: rgb(255, 255, 255);/* white;*/
+}
+@media screen and (max-width:720px){
+    .footerBar ul li a{
+        font-size: 12px;
+    }
+}
+
+.under{
+    clear: both;
+    text-align: center;
+    padding-top: 6px;
+    color: black;
+}
+@media screen and (max-width:720px){
+    .under{
+        font-size: 12px;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+

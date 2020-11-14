@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    margin-left: 8px;
+
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color:rgb(0, 38, 163);
+    font-weight: bold;
+    font-size: 22px;
+    border-left: solid 4px rgb(0, 69, 173);
+    padding-left: 10px;
+    margin-left: 2px;
+}
+
+a:hover {
+	color:rgb(0, 47, 117);
+}
+
+.first{
+    padding-left: 8px;
+    margin-top: 8px;
+
+    font-weight: bold;
+    font-size: 20px;
+
+    color:rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.first>a{
+    color:rgb(255, 255, 255);
+}
+.first>a:visited{
+    color:rgb(255, 255, 255);
+}
+.first>a:hover{
+    color:rgb(147, 190, 255);
+}
+
+.second{
+    padding-left: 22px;
+    padding-top: 6px;
+
+    font-weight: bolder; 
+    font-size: 18px;
+
+    color:rgb(0, 79, 168);
+}
+.second>a{
+    color:rgb(0, 79, 168);
+}
+.second>a:visited{
+    color:rgb(0, 79, 168);
+}
+.second>a:hover{
+    color:rgb(0, 51, 128);
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(168, 95, 0);
+}
+
+p{
+    color:rgb(168, 95, 0);
+    font-weight: bold;
+    font-size: 20px;
+    border-left: solid 4px rgb(88, 50, 0);
+    padding-left: 10px;
+    margin-left: 2px;
+}
+
+a:hover {
+	color:rgb(88, 50, 0);
+}
+
+.first{
+    padding-left: 8px;
+    margin-top: 8px;
+
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.second{
+    padding-left: 22px;
+    padding-top: 6px;
+
+    font-weight: bolder; 
+    font-size: 14px;
+}

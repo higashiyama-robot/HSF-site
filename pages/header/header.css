@@ -1,0 +1,93 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-bottom: solid 4px #275c92;
+    overflow: hidden;
+}
+
+.header img{
+    float: left;
+    margin: 10px 20px 17px 20px;
+}
+@media screen and (max-width:720px){
+    .header img{
+        height: 60%;
+        width: auto;
+    }
+}
+
+.header h1{
+    font-family : 'Impact','arial black','Franklin Gothic Medium',sans-serif ;
+}
+@media screen and (max-width:720px){
+    .header h1{
+        display:none;
+    }
+}
+
+.header h2{
+    position:absolute;
+	left: 20px;
+	top:104px;
+    font-family : 'Impact','arial black','Franklin Gothic Medium',sans-serif ;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+@media screen and (min-width:720px){
+    .header h2{
+        display:none;
+    }
+}
+
+/*///////////////////////////////////////////////////*/
+
+.topBar{
+    clear: both;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+@media screen and (max-width:720px){
+    .topBar{
+        display: none;
+    }
+}
+
+.topBar ul{
+    display: table;
+    margin: 0 auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+}
+
+.topBar ul li{
+    display: table-cell;
+    min-width: 50px;
+}
+
+.topBar ul li a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 5px;
+}
+
+.topBar a:hover {
+    color: #00439b;
+    border-bottom:solid 6px #719dc9;
+}
