@@ -1,0 +1,27 @@
+
+/*各ページオリジナルスタイル////////////////////////////////////////////*/
+
+/*.contents{
+    height: 650px;
+}
+
+.nav{
+    height: 550px;
+}*/
+
+.title h1{
+    float: left;
+    margin-right: 30px;/**/
+}
+@media screen and (max-width:720px){
+    .title h1{
+        margin-top: 28px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:720px){
+    #nav-drawer{
+        display: none;
+    }
+}
