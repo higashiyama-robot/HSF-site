@@ -25,3 +25,25 @@
     border-left: solid 4px #002d8f;
     color:#002d8f;
 }*/
+
+
+.btn-square2 {/*ボタン////////////////*/
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    background: #6093ff;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 12px;
+
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+  .btn-square2:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);/*下に動く*/
+    /*border-bottom: none;*//*線を消す*/
+  }
