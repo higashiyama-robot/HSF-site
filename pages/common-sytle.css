@@ -155,7 +155,7 @@ body{
 }
 @media screen and (max-width:720px){
     .contents{
-        width: 97%;
+        width: 100%;
     }
 }
 
@@ -227,8 +227,8 @@ body{
 }
 @media screen and (max-width:720px){
     .contents>iframe{
-        width: 85vw;
-        height: calc(85vw * 0.5625);
+        width: 88vw;
+        height: calc(88vw * 0.5625);
     }
 }
 
